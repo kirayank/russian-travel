@@ -1,0 +1,7 @@
+.footer__links{
+    display: grid;
+    max-width: 465px;
+    grid-template-columns: repeat(5, auto); /*minmax(106px, 1fr)*/
+    grid-gap: 18px;
+    align-content: center;
+}

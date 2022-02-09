@@ -1,0 +1,5 @@
+.header__links{
+    display: flex;
+    margin: 0;
+    border: solid 1px blue;
+}

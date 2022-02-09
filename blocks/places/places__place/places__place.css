@@ -1,0 +1,25 @@
+.places__place{
+    margin: 0;
+    padding: 0;
+    width: 984px;
+    height: 660px;
+    /*display: grid;
+    grid-template-areas: 
+    "title website"
+    "image paragraph";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 40px 48px;*/
+
+    display: grid;
+    /*gap: 80px;*/
+    grid-template-rows: repeat(2, min-max(208px, 1fr));
+    grid-template-columns: repeat(2, min-max(288px, 1fr));
+    grid-template-areas: 
+    "title website"
+    "image paragraph";
+    gap: 40px 48px;
+    border: solid 1px red;
+    align-items: start;
+    
+}
