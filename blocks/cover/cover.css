@@ -1,0 +1,11 @@
+.cover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1184px;
+    height: 740px;
+    border: solid 1px yellow;
+    align-self: center;
+    align-content: center;
+}

@@ -4,5 +4,11 @@
     font-size: 18px;
     line-height: 122%;
     text-decoration-line: underline;  
-    color: #FFFFFF;  
+    color: #FFFFFF;
+    opacity: 1;
+    transition: opacity 0.5s linear;
+}
+
+.places_website_link:hover{
+    opacity: 0.8;
 }

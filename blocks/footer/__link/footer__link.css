@@ -9,4 +9,10 @@
     text-decoration: none;
     color: white;
     border: solid 1px blue;
+    opacity: 1;
+    transition: opacity 0.5s linear;
+}
+
+.footer__link:hover{
+    opacity: 0.8;
 }
