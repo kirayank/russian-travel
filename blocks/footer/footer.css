@@ -4,6 +4,24 @@
     min-height: 18px;
     margin-top: 92px;
     margin-bottom: 24px;
-    border: solid 1px red;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer{
+        max-width: 928px;
+        border: solid 1px red;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer{
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer{
+        min-width: 288px;
+    }
 }

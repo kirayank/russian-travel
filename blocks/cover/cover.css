@@ -1,5 +1,6 @@
 .cover{
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -8,4 +9,23 @@
     border: solid 1px yellow;
     align-self: center;
     align-content: center;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        min-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        min-width: 768px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        min-width: 320px;
+    }
 }

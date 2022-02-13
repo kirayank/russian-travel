@@ -11,4 +11,5 @@
     color: #FFFFFF;
     border: solid 1px red;
     z-index: 3;
+    overflow: hidden;
 }

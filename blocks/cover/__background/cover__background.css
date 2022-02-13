@@ -1,4 +1,5 @@
 .cover__background{
+    display: block;
     position: absolute;
     margin: auto;
     width: 1184px;
@@ -8,4 +9,24 @@
     background-position: center;
     background-size: cover;
     z-index: 1;
+    overflow: hidden;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .header {
+        min-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        min-width: 768px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        min-width: 320px;
+    }
 }
