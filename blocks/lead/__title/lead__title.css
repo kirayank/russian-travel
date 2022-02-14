@@ -6,5 +6,12 @@
     font-size: 96px;
     line-height: 104%;
     text-align: center;
-    border: solid 1px purple;
+}
+
+@media screen and (max-width: 320px) {
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+        width: 288px;
+    }
 }

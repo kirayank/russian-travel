@@ -7,3 +7,19 @@
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+    .lead {
+        min-width: 768px;
+        min-height: 862px;
+        margin-top: 48px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead {
+        min-width: 320px;
+        min-height: 406px;
+        margin-top: 40px;
+    }
+}

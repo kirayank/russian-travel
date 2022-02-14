@@ -8,7 +8,6 @@
     line-height: 112%;
     text-decoration: none;
     color: white;
-    border: solid 1px blue;
     opacity: 1;
     transition: opacity 0.5s linear;
 }

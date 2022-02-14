@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: column;
     grid-area: website;
-    border: solid 1px yellow;
     width: fit-content;
     height: fit-content;
     align-self: end;
