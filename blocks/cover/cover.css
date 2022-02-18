@@ -12,19 +12,19 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .header {
+    .cover {
         min-width: 1024px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .header {
+    .cover {
         min-width: 768px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .header {
+    .cover {
         min-width: 320px;
     }
 }

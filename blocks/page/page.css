@@ -1,14 +1,16 @@
 .page{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0%, 1fr);
+    grid-auto-flow: row dense;
     justify-content: center;
     align-content: center;
     justify-items: center;
     align-items: center;
-    min-width: 100vw;
+    min-width: 100%;
     font-family: 'Inter', Arial, sans-serif;
     background-color: #2A2C2F;
     color: white;
     overflow: hidden;
+    overflow-x: hidden;
 }
 

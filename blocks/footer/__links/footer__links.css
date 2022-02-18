@@ -1,8 +1,4 @@
 .footer__links{
-    display: grid;
-    max-width: 50%;
-    grid-template-columns: repeat(5, auto); /*minmax(106px, 1fr)*/
-    grid-gap: 18px;
-    align-content: center;
-    margin-left: 48px;
+    margin: 0;
+    padding: 0;
 }

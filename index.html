@@ -6,12 +6,12 @@
   <link rel="stylesheet" href="./pages/index.css">
   <title>Путешествия по России</title>
 </head>
-<body>
+<body scroll="no">
   <div class="page">
     <header class="header">
       <img class="logo" src="./images/header-logo.svg" alt="Логотип в заголовке">
       <div class="header__links">
-        <a class="header__lang-link" href="#">Ru</a>
+        <a class="header__lang-link header__link-underlined" href="#">Ru</a>
         <a class="header__lang-link" href="#">Eng</a>
       </div>
     </header>
@@ -19,7 +19,7 @@
 
       <section class="lead">
           <h1 class="lead__title">Путешествия по России</h1>
-          <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
+          <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
           <div class="lead__image"></div>
           <p class="lead__caption">ваша полка — верхняя</p>
       </section>
@@ -112,21 +112,24 @@
       </section>
 
       <section class="cover">
-        <h2 class="cover__title">До Байкала «на собаках»</h2>
-        <h3 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</h3>
-        <a class="cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala"></a>
-        <div class="cover__background"></div>
-      
+        <a class="cover cover__overlay" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+          <div class="cover__layer"></div>
+          <div class="cover__background"></div>
+        </a>
       </section>
 
      </main> 
      <footer class="footer">
        <nav class="footer__links">
-        <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
-        <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
-        <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
-        <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
-        <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+        <ul class="footer__list">
+          <li class="footer__element"><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
+          <li class="footer__element"><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
+          <li class="footer__element"><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
+          <li class="footer__element"><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
+          <li class="footer__element"><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
+        </ul>
        </nav>
        <p class="footer__copyright">&#169;2022. Янкиева Кира</p>
      </footer>
