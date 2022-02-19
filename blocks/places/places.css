@@ -5,10 +5,19 @@
     grid-template-rows: repeat(2, min-max(208px, 1fr));
     align-items: end;*/
     margin: 0;
+    padding: 0;
     display: grid;
     gap: 80px;
     justify-items: center;
     
+}
+
+@media screen and (max-width: 768px) {
+    .places {
+        width: 720px;
+        height: 2808px;
+        gap: 0;
+    }
 }
 
 @media screen and (max-width: 320px) {

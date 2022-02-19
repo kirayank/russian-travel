@@ -6,6 +6,14 @@
     margin-right: auto;
 }
 
+@media screen and (max-width: 768px) {
+    .photo-grid {
+        width: 720px;
+        height: 1664px;
+        margin: 88px 24px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .photo-grid {
         width: 288px;

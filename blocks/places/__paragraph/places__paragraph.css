@@ -10,6 +10,13 @@
     justify-self: start;
 }
 
+@media screen and (max-width: 768px) {
+    .places__paragraph {
+        width: 352px;
+        font-size: 16px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .places__paragraph {
         width: 288px;
