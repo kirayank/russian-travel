@@ -22,7 +22,10 @@
 
 @media screen and (max-width: 320px) {
     .footer{
-        margin-left: 24px;
-        margin-right: 48px;
+        flex-direction: column;
+        margin-top: 64px;
+        width: 186px;
+        height: 310px;
+        margin-right: 100px;
     }
 }

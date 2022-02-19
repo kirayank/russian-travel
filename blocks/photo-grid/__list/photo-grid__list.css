@@ -8,3 +8,13 @@
     justify-items: center;
     list-style-type: none;
 }
+
+@media screen and (max-width: 320px) {
+    .photo-grid__list {
+        width: 288px;
+        height: 2740px;
+        grid-template-columns: 284px;
+        grid-template-rows: repeat(12, 213px);
+        margin-left: 435px;
+    }
+}

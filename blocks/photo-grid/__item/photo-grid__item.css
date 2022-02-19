@@ -1,9 +1,10 @@
 .photo-grid__item{
+    display: block;
     padding: 0;
     margin: 0;
     object-fit: cover;
     object-position: center;
-    max-width: 284px;
-    max-height: 213px;
+    width: 284px;
+    height: 213px;
     list-style-type:none;
 }

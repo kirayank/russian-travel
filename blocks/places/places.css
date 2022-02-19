@@ -10,3 +10,10 @@
     justify-items: center;
     
 }
+
+@media screen and (max-width: 320px) {
+    .places {
+        width: 320px;
+        height: 5177px;
+    }
+}

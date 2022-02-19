@@ -8,3 +8,11 @@
     align-content: center;
     margin-left: 48px;
 }
+
+@media screen and (max-width: 320px) {
+    .footer__list{
+        grid-template-columns: 186px;
+        grid-template-rows: repeat(5, 24px);
+        gap: 32px;
+    }
+}

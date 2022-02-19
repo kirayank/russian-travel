@@ -9,3 +9,11 @@
     align-self: start;
     justify-self: start;
 }
+
+@media screen and (max-width: 320px) {
+    .places__paragraph {
+        width: 288px;
+        height: 468px;
+        font-size: 16px;
+    }
+}

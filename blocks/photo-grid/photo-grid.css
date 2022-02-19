@@ -5,3 +5,11 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+@media screen and (max-width: 320px) {
+    .photo-grid {
+        width: 288px;
+        height: 2740px;
+        margin: 64px 16px;
+    }
+}
